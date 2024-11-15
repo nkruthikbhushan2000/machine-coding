@@ -1,0 +1,21 @@
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.grid-col{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.grid-col:hover{
+    cursor: pointer;
+}

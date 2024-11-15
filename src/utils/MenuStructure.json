@@ -1,0 +1,41 @@
+{
+    "Folders": [
+      {
+        "id": 1,
+        "Name": "Recursive Folder",
+        "Type": "file",
+        "Path": "recursive-folder"
+      },
+      {
+        "id": 2,
+        "Name": "Modal",
+        "Type": "file",
+        "Path":"modal"
+      },
+      {
+        "id": 3,
+        "Name": "SideBar",
+        "Type": "file",
+        "Path": "sidebar"
+      },
+      {
+        "id": 4,
+        "Name": "Password Generator",
+        "Type": "file",
+        "Path": "password-generator"
+      },
+      {
+        "id": 5,
+        "Name": "Image Carousel",
+        "Type": "file",
+        "Path": "image-carousel"
+      },
+      {
+        "id": 6,
+        "Name": "Grid Component",
+        "Type": "file",
+        "Path": "grid-component"
+      }
+    ]
+  }
+  

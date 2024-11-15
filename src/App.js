@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import MenuStructure from "./utils/MenuStructure";
+import SideBarController from "./controllers/sidebarController";
+import { TiThMenu } from "react-icons/ti";
+// import { RxExit } from "react-icons/rx";
+import RouterApp from "./components/router-comp";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app-outer-wrapper">
+        <div className="app-header">
+          <SideBarController
+            title={"MenuList"}
+            content={MenuStructure}
+            enableFooter={false}
+            isFunctional={true}
+            buttonIcon={<TiThMenu />}
+          />
+          <h2>Machine Coding Problems</h2>
+          <div className="exit-container">
+            {/* <RxExit width={"1.5rem"} /> */}
+          </div>
+        </div>
+        <div className="App">
+          <RouterApp />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
