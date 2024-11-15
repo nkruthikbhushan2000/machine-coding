@@ -1,0 +1,44 @@
+{
+    "carousels":[
+    {    
+        "id": 1,
+        "image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+        "heading": "Carousel 1",
+        "content": "Content for Carousel 1",
+        "button-text": "Button 1",
+        "button-link": "#"
+    },
+    {
+        "id": 2,
+        "image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+        "heading": "Carousel 2",
+        "content": "Content for Carousel 2",
+        "button-text": "Button 2",
+        "button-link": "#"
+    },
+    {
+        "id": 3,
+        "image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+        "heading": "Carousel 3",
+        "content": "Content for Carousel 3",
+        "button-text": "Button 3",
+        "button-link": "#"
+    },
+    {
+        "id": 4,
+        "image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+        "heading": "Carousel 4",
+        "content": "Content for Carousel 4",
+        "button-text": "Button 4",
+        "button-link": "#"
+    },
+    {
+        "id": 5,
+        "image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+        "heading": "Carousel 5",
+        "content": "Content for Carousel 5",
+        "button-text": "Button 5",
+        "button-link": "#"
+    }
+]
+}

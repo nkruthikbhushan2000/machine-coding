@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+.recursive-folder{
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}

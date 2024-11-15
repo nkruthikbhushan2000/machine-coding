@@ -1,0 +1,33 @@
+{
+  "Folders": [
+    {
+      "id": 11,
+      "Name": "Main Folder",
+      "Type": "folder",
+      "Folders": [
+        { "id": 1, "Name": "Project Management", "Type": "file" },
+        { "id": 2, "Name": "Contracts", "Type": "file" },
+        {
+          "id": 3,
+          "Name": "Engineering",
+          "Type": "folder",
+          "Folders": [
+            { "id": 4, "Name": "Design", "Type": "file" },
+            { "id": 5, "Name": "Development", "Type": "file" },
+            { "id": 6, "Name": "Testing", "Type": "file" }
+          ]
+        },
+        {
+          "id": 7,
+          "Name": "Doctor",
+          "Type": "folder",
+          "Folders": [
+            { "id": 8, "Name": "Design", "Type": "file" },
+            { "id": 9, "Name": "Development", "Type": "file" },
+            { "id": 10, "Name": "Testing", "Type": "file" }
+          ]
+        }
+      ]
+    }
+  ]
+}
